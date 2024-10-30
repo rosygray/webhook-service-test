@@ -14,12 +14,18 @@
 ## Installation
 
 ```
+# Run npm install in the root directory first
+npm install
+# You also need to go to /svelte-webhook-ui directory to run npm install
+cd svelte-webhook-ui
 npm install
 ```
 
 ## Start the Service
 
 ```
+# Back to the /webhook-service-test directory to start
+cd ../
 npm run start
 ```
 
