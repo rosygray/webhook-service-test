@@ -107,8 +107,8 @@
             <input class="form-control" placeholder="Auth Token" bind:value={auth_token} required />
         </div>
         <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" bind:checked={enabled} />
-            <label class="form-check-label">Enabled</label>
+            <input type="checkbox" id="enabled" class="form-check-input" bind:checked={enabled} />
+            <label class="form-check-label" for="enabled">Enabled</label>
         </div>
         <div class="form-group">
             <textarea class="form-control" placeholder="Template URLs (comma separated)" bind:value={template_urls} required></textarea>
@@ -142,8 +142,6 @@
             </li>
         {/each}
     </ul>
-
-
 </main>
 
 <style>
